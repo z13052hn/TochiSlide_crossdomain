@@ -25,7 +25,7 @@ module TochiSlide
 
     config.middleware.insert_before 0, "Rack::Cors" do
       allow do
-        origins 'your_app_domain'
+        origins 'localhost:3000'
         resource '*', :headers => :any, :methods => [:get, :post, :put, :delete, :options]
       end
     end
