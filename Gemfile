@@ -50,7 +50,7 @@ ruby '2.2.5'
 
 gem 'geocoder'
 gem 'gmaps4rails'
-
+gem 'rack-cors'
 gem 'ransack'
  
 
