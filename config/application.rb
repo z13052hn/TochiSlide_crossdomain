@@ -25,7 +25,7 @@ module TochiSlide
 
     config.middleware.use Rack::Cors do
        allow do
-       origins 'localhost:3000'
+       origins 'http://localhost:3000'
        resource '*', :headers => :any, :methods => [:get, :post, :options]
      end
     end
