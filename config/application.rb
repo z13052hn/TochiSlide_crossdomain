@@ -25,7 +25,7 @@ module TochiSlide
 
     config.middleware.insert_before 0, "Rack::Cors", :debug => true, :logger => (-> { Rails.logger }) do
       allow do
-        origins '*'
+        origins 'aa'
         resource '*', :headers => :any, :methods => [:get, :post, :options]
       end
     end
