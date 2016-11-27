@@ -44,6 +44,7 @@ class LandslidesController < ApplicationController
   # POST /landslides
   # POST /landslides.json
   def create 
+       logger.debug(params)
        lat = params[:landslide][:latitude]
        lng = params[:landslide][:longitude]
     if lat != "" and lng != ""
