@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/nyamco-enpit/TochiSlide.svg?branch=master)](https://travis-ci.org/nyamco-enpit/TochiSlide)
 
 # nyamco_enpit_team
 Nyamco enpit team project
@@ -7,9 +6,7 @@ Nyamco enpit team project
 TochiSlide
 
 ##Links
-- [Backlog](https://trello.com/b/8wf5MqEp/aiit-enpit-2016-nyamco)
-- [Travis CI](https://travis-ci.org/nyamco-enpit/TochiSlide)
-- [Heroku](https://polar-taiga-41162.herokuapp.com/tochi_slide/index)
+- [Heroku](https://fierce-beyond-24128.herokuapp.com/tochi_slide/index)
 
 ##Elevetor pitch*
  *short summary used to quickly and simply define a process, product, service, organization, or event and its value proposition.
