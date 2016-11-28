@@ -14,6 +14,9 @@ class LandslidesController < ApplicationController
     @latlng = Gmaps4rails.build_markers(@landslides) do |landslide, marker|
         marker.lat landslide.latitude
         marker.lng landslide.longitude  end
+    if params[:callback]
+       response['Content-Type'] = 'application/javascript'
+    end
   end
 
    def get_weather_info(lat, lon)

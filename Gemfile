@@ -52,5 +52,6 @@ gem 'geocoder'
 gem 'gmaps4rails'
 gem 'rack-cors',:require => 'rack/cors'
 gem 'ransack'
+gem 'jpbuilder'
  
 
